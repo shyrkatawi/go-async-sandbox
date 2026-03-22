@@ -117,7 +117,7 @@ func waitWithSyncCond() {
 	wg.Wait()
 }
 
-func RunSyncCond() {
+func RunSyncCond1() {
 	//waitWithSyncCond()
 	waitWithCh()
 }

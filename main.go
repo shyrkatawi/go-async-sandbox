@@ -1,13 +1,12 @@
 package main
 
-import (
-	"go-async-sandbox/examples/mutex"
-)
+import "go-async-sandbox/examples/sync_cond"
 
 func main() {
 	//deadlock.RunDeadLock()
 	//livelock.RunLivelock()
-	//sync_cond.RunSyncCond()
+	//sync_cond.RunSyncCond1()
 	//starvation.RunStarvation()
-	mutex.RunMyMutex()
+	//mutex.RunMyMutex()
+	sync_cond.RunSyncCond2()
 }
