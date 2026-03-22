@@ -1,11 +1,11 @@
 package main
 
 import (
-	"go-async-sandbox/examples/sync_cond"
+	"go-async-sandbox/examples/livelock"
 )
 
 func main() {
 	//deadlock.RunDeadLock()
-	//livelock.RunLivelock()
-	sync_cond.RunSyncCond()
+	livelock.RunLivelock()
+	//sync_cond.RunSyncCond()
 }
