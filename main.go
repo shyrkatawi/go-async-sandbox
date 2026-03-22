@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "go-async-sandbox/examples/deadlock"
 
 func main() {
-	fmt.Println(123)
+	deadlock.RunDeadLock()
 }
