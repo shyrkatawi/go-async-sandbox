@@ -11,5 +11,6 @@ func main() {
 	//starvation.RunStarvation()
 	//mutex.RunMyMutex()
 	//sync_cond.RunSyncCond2()
-	channel.RunChannel1()
+	//channel.RunChannel1()
+	channel.RunChannel2()
 }
