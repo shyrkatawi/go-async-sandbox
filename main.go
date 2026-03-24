@@ -12,5 +12,6 @@ func main() {
 	//mutex.RunMyMutex()
 	//sync_cond.RunSyncCond2()
 	//channel.RunChannel1()
-	channel.RunChannel2()
+	//channel.RunChannel2()
+	channel.RunChannel3()
 }
