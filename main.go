@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-async-sandbox/examples/channel"
+	"go-async-sandbox/channel"
 )
 
 func main() {
